@@ -1,0 +1,67 @@
+<html>
+  <style>
+      .heading{font-family: 'Chango', cursive; background-color: darkgreen; color:black ;
+    padding: 20px;text-align: center; font-size: 40px}
+      .background{background-image:url(BG3.png); }
+      .main{margin-left: 20%; margin-right: 20%; }
+      .subheading{font-family: 'Varela Round', sans-serif; color: darkgrey;  padding: 20px; text-align: justify;background-color: 	#1b1818;}
+      .content{font-family: 'Varela Round', sans-serif; color: darkgrey;  padding: 20px; text-align: justify;background-color: #282525;margin-left: : 1%;margin-right: 1%;}
+      .link{text-decoration: none; color: darkgrey;}
+      .topnav {overflow: hidden;background-color: #333;}
+      .topnav a {float: left;display: block;color: #f2f2f2;text-align: center;padding: 14px 16px;text-decoration: none;}
+      .topnav a:hover {background-color: #ddd;color: black;}
+      .image{ display: block;margin-left: auto;margin-right: auto;width: 50%; margin-bottom: 1%;}
+      .list{}
+      .search{align: right; color: darkgrey;}
+  </style>
+
+
+    <head><link href="https://fonts.googleapis.com/css?family=Chango|Varela+Round" rel="stylesheet">
+      <title>Sign In</title>
+
+    </head>
+    <body class="background">
+      <div class="main"><a class="link"href="index.html"><h2 class="heading" >Tourism Industry</h2></a>
+            <div class="topnav"><a href="home.html">Home</a><a class="topnav" href="login.html" >Login</a><a href="contactus.html">Contact Us</a><a href="feedback.html">Feedback</a> </div>
+            <div class="subheading"><a href="blog1.html" class="link" ><h1 >Sign In</h1></a>
+
+              <form name="myForm">
+                      <h3>Username:
+                      <input type="text" name="name" required></input>
+                      <h3> Email Id:
+                       <input type="text" name="name" required></input>   
+                      </h3>
+                      <h3>password:
+                      <input type="password" required name = "p1"></input><br><br>
+                      <input type="submit" onclick=" return myFunction()"></input>
+
+
+
+
+              </form>
+            </div>
+      </div>
+
+
+    </body>
+
+    <script>
+  // When the user clicks on <div>, open the popup
+  function myFunction() {
+  var x = document.forms["myForm"]["name"].value;
+  var y = document.forms["myForm"]["p1"].value;
+
+  if (x == "" || y=="" ) {
+    alert("Required details must be filled out");
+    return false;}
+  else{
+    alert("Login successfull ");
+  }
+
+  }
+
+
+  </script>
+
+</html>
+
