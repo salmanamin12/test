@@ -47,13 +47,17 @@ To make deployment easy and consistent, I created a **Dockerfile** to containeri
 
 ```
 movie-recommender/
+├── analysis.ipynb
 ├── app.py
 ├── requirements.txt
 ├── model.pkl
 ├── similarity.pkl
 ├── Dockerfile
-└── templates/
+├── templates/
     └── index.html
+└── data/
+    └── tmdb_5000_credits
+    ├── tmdb_5000_movies
 ```
 
 ---
