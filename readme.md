@@ -56,8 +56,8 @@ movie-recommender/
 ├── templates/
     └── index.html
 └── data/
-    └── tmdb_5000_credits
-    ├── tmdb_5000_movies
+    ├── tmdb_5000_credits
+    └── tmdb_5000_movies
 ```
 
 ---
